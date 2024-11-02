@@ -1,0 +1,9 @@
+C:\Users\master\source\repos\N6HDMsgEditor\N6HDMsgEditor\bin\Debug\N6HDMsgEditor.exe.config
+C:\Users\master\source\repos\N6HDMsgEditor\N6HDMsgEditor\bin\Debug\N6HDMsgEditor.exe
+C:\Users\master\source\repos\N6HDMsgEditor\N6HDMsgEditor\bin\Debug\N6HDMsgEditor.pdb
+C:\Users\master\source\repos\N6HDMsgEditor\N6HDMsgEditor\bin\Debug\LS11DotNet.dll
+C:\Users\master\source\repos\N6HDMsgEditor\N6HDMsgEditor\obj\Debug\N6HDMsgEditor.csproj.AssemblyReference.cache
+C:\Users\master\source\repos\N6HDMsgEditor\N6HDMsgEditor\obj\Debug\N6HDMsgEditor.csproj.CoreCompileInputs.cache
+C:\Users\master\source\repos\N6HDMsgEditor\N6HDMsgEditor\obj\Debug\N6HDMsgE.269BD02D.Up2Date
+C:\Users\master\source\repos\N6HDMsgEditor\N6HDMsgEditor\obj\Debug\N6HDMsgEditor.exe
+C:\Users\master\source\repos\N6HDMsgEditor\N6HDMsgEditor\obj\Debug\N6HDMsgEditor.pdb
