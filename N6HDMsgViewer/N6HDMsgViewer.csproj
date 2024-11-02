@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{5511D4B9-B39A-46CF-B13A-1BC3EAF41CCD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>N6HDMsgEditor</RootNamespace>
-    <AssemblyName>N6HDMsgEditor</AssemblyName>
+    <RootNamespace>N6HDMsgViewer</RootNamespace>
+    <AssemblyName>N6HDMsgViewer</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -36,6 +36,7 @@
     <Reference Include="LS11DotNet">
       <HintPath>.\LS11DotNet.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

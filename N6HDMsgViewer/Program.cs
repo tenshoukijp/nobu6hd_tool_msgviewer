@@ -4,8 +4,14 @@ using System.Collections; // ArrayListを使用するために必要です。Nee
 using System.Collections.Generic; // List<T>を使用するために必要です。Needed for using List<T>.
 using System.Text; // エンコーディング関連の機能を使用するために必要です。Needed for encoding-related functionalities.
 
+using Microsoft.VisualBasic;
+
+
+
 namespace N6HDMsgEditor
 {
+
+
     internal class Program
     {
         /// <summary>
@@ -34,6 +40,12 @@ namespace N6HDMsgEditor
             }
         }
 
+        public static string HankakuKatakanaToZenkakuHiragana(string input)
+        {
+            var zen =  Strings.StrConv(input, VbStrConv.Wide, 0x411); // 半角カタカナを全角ひらがなに変換します。Converts half-width katakana to full-width hiragana.
+            var zen_hira = Strings.StrConv(zen, VbStrConv.Hiragana, 0x411); // 全角ひらがなに変換します。Converts to full-width hiragana.
+            return zen_hira;
+        }
 
         static void Main(string[] args)
         {
@@ -62,6 +74,8 @@ namespace N6HDMsgEditor
                 }
 
                 string sjis_with_meta = ConvertListByteToSjisString(byte_array); // バイト配列をShift-JIS文字列に変換します。Converts the byte array to a Shift-JIS string.
+
+                sjis_with_meta = HankakuKatakanaToZenkakuHiragana(sjis_with_meta);
 
                 byte_array.Clear(); // バイト配列をクリアします。Clears the byte array.
                 Console.WriteLine(sjis_with_meta); // 文字列を出力します。Prints the string.
